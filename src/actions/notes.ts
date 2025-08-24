@@ -5,7 +5,6 @@ import { notes } from "@/db/schemas/notes";
 import { getUser } from "@/lib/auth";
 import { getErrorMessage } from "@/lib/utils";
 import { and, eq } from "drizzle-orm";
-import { date } from "drizzle-orm/mysql-core";
 import { revalidatePath } from "next/cache";
 
 export const addNewNoteAction = async (formdata: FormData) => {

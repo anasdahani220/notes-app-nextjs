@@ -1,5 +1,5 @@
 "use client"
-import { DeleteNoteAction, edditNoteAction } from '@/actions/notes';
+import {  edditNoteAction } from '@/actions/notes';
 import { Note } from '@/db/schemas/notes'
 import { DialogContent, DialogTitle } from './ui/dialog';
 import React, { Dispatch, SetStateAction, useTransition } from 'react'

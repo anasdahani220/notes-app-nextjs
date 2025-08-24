@@ -10,7 +10,7 @@ import {
  
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
-import { LogOut, UserCircle } from 'lucide-react'
+import { UserCircle } from 'lucide-react'
 import {User} from '@supabase/supabase-js'
 import { cn } from '@/lib/utils'
 import { useRouter } from 'next/navigation'

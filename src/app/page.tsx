@@ -5,7 +5,7 @@ import db from "@/db";
 import { notes } from "@/db/schemas/notes";
 import { getUser } from "@/lib/auth";
 import { desc, eq } from "drizzle-orm";
-import Image from "next/image";
+
 
 export default async function Home() {
   const user = await getUser() ;

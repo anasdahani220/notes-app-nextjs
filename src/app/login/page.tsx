@@ -1,6 +1,6 @@
 'use client' ;
 
-import { createAccountAction, loginAction } from "@/actions/user";
+import { loginAction } from "@/actions/user";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Loader2 } from "lucide-react";
@@ -39,7 +39,7 @@ function LoginAccountPage() {
                 <Input type="password" name="password" placeholder="Password" required disabled={isPending}/>
                 <Button>Login</Button>
                 <p className="mt-3 text-xs text-center">
-                    d'ont have an account
+                    don t have an account
                     <Link href="/create-account" className="ml-2 underline transition-colors duration-200 ease-in-out hover:text-red-300">create account</Link>
                 </p>
             </form>
